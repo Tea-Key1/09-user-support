@@ -55,7 +55,6 @@ const Experience = ({ timerInterval, timerRunning, start }: { timerInterval: num
 
     return (
         <>
-            <OrbitControls />
             <Environment preset="city" background />
             <ambientLight intensity={1} />
 
