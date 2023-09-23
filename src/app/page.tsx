@@ -154,7 +154,7 @@ export default function Home() {
                             )}
                         </ol>
                     </div>
-                    {start ? <div className="absolute z-10 bottom-20 right-20 h-[20dvh] w-[20dvh] flex flex-col bg-white text-center justify-center"><Image src="/textures/cross.svg" className="h-full w-full p-5" alt={""} width={100} height={100} /></div> : null}
+                    {start ? <div className="absolute z-10 bottom-20 right-20 h-[20dvh] w-[20dvh] flex flex-col bg-white text-center justify-center"><Image src="/textures/touch.svg" className="h-full w-full p-5" alt={""} width={100} height={100} /></div> : null}
                     <Canvas className="h-[70dvh] w-[100dvw]" camera={{ position: [6, 7, 25], fov: 45 }}>
                         <Experience timerInterval={timerInterval} timerRunning={timerRunning} start={start} />
                     </Canvas>
