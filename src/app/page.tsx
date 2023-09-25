@@ -91,7 +91,7 @@ export default function CanvasComponent() {
                             )}
                         </ol>
                     </div>
-                    {start ? <div className="absolute z-10 bottom-20 right-20 h-[20dvh] w-[20dvh] flex flex-col bg-white text-center justify-center"><Image src="/textures/touch.svg" className="h-full w-full p-5" alt={""} width={100} height={100} /></div> : null}
+                    {start ? <div className="absolute z-10 bottom-20 right-20 h-[20dvh] w-[20dvh] flex flex-col bg-white text-center justify-center"><Image src="/textures/cross.svg" className="h-full w-full p-5" alt={""} width={100} height={100} /></div> : null}
                     <div className="absolute w-20 bg-gray-200 rounded-full h-2.5 z-10" style={{ top: `${mousePos.y}px`, left: `${mousePos.x}px`, transform: "translate(-50%, -50%)", opacity: `${opacity}` }}>
                         <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: `${hoverWidth}%`, backgroundColor: `${color}` }}></div>
                     </div>
