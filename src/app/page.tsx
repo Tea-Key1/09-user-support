@@ -224,13 +224,13 @@ const Box = ({ setHoverWidth, setOpacity, setColor, timerInterval, timerRunning,
 
             {start ? (
                 <>
-                    <Html position={[1, 3, 5]} occlude as="div" wrapperClass="point_0">
+                    <Html position={[1, 1, 5]} occlude as="div" wrapperClass="point_0">
                         <div className="h-20 w-40 bg-white flex flex-row items-center rounded-xl border-2 border-amber-900 bg-opacity-75">
                             <input type="checkbox" id="checkbox1" onClick={checkCompletion} className="h-6 w-20" />
                             <p className="h-ful w-20 ml-5 text-base text-start">フロント</p>
                         </div>
                     </Html>
-                    <Html position={[-1, 2, -7]} occlude as="div" wrapperClass="point_1">
+                    <Html position={[1, 2, -5]} occlude as="div" wrapperClass="point_1">
                         <div className="h-20 w-40 bg-white flex flex-row items-center rounded-xl border-2 border-amber-900 bg-opacity-75">
                             <p className="h-ful w-20 mr-5 text-base text-start">リア</p>
                             <input type="checkbox" id="checkbox2" onClick={checkCompletion} className="h-6 w-20" />
